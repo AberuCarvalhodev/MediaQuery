@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.499);
+    font-size: 2em;
+}
+
+body {
+    background: black url(../magens/back-phone.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.286);
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tablet {display: none;}
+#print {display: none;}
+#pc {display: none;}
+#tv {display: none;}
